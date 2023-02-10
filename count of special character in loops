@@ -1,0 +1,6 @@
+string='man@$^'
+count=0
+for i in string:
+    if(i=='@' or i=='$' or i=='^' or i=='*'):
+        count=count+1
+print(count)
